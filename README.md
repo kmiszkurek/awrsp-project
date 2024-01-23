@@ -1,2 +1,3 @@
 # awrsp-project-rejestration
-zmiany zostaly zmienione
+zmiany zostaly retsdasfasdf
+sasfasfasaasrfaszmienione
