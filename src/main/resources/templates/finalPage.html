@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Umów się na wizytę</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/style.css}">
+</head>
+<body>
+<div class="final-container">
+    <h2>Podsumowanie wizyty</h2>
+    <p>Imię pacjenta: <span th:text="${firstName}"></span></p>
+    <p>Nazwisko pacjenta: <span th:text="${lastName}"></span></p>
+    <p>Imię lekarza: <span th:text="${physician}"></span></p>
+    <p>Data wizyty: <span th:text="${visitDate}"></span></p>
+    <a th:href="@{/}"><button class="confirm-button">Potwierdź wizytę</button></a>
+</div>
+</body>
+</html>
