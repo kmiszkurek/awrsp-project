@@ -1,2 +1,2 @@
-# awrsp-project-rejestration
-zmiany zostaly
+# awrsp-project
+test commita
